@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "PierceNg 9/10/2017 10:50",
+	"super" : "LcBIO",
+	"category" : "OpenSSL-BIO",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LcMemoryBIO",
+	"type" : "normal"
+}
