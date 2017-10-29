@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "PierceNg 9/10/2017 17:01",
+	"super" : "Object",
+	"category" : "OpenSSL-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"handle"
+	],
+	"name" : "LcObject",
+	"type" : "normal"
+}

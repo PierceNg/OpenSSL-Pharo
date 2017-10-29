@@ -1,0 +1,1 @@
+I am the superclass of error conditions related to OpenSSL.

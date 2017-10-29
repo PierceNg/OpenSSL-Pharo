@@ -1,0 +1,1 @@
+I represent the OpenSSL API BN C-level type.

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "PierceNg 9/10/2017 23:26",
+	"super" : "Object",
+	"category" : "OpenSSL-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Current",
+		"TypeMap"
+	],
+	"instvars" : [ ],
+	"name" : "LcLibCrypto",
+	"type" : "normal"
+}
