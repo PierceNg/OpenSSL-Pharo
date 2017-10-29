@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "PierceNg 9/10/2017 17:34",
+	"super" : "TestCase",
+	"category" : "OpenSSL-Tests-BigNum",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bn"
+	],
+	"name" : "LcBigNumTest",
+	"type" : "normal"
+}
