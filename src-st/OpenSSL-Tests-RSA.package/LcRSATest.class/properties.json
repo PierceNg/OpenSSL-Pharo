@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "PierceNg 10/7/2017 14:23",
+	"super" : "TestCase",
+	"category" : "OpenSSL-Tests-RSA",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"rsa"
+	],
+	"name" : "LcRSATest",
+	"type" : "normal"
+}
