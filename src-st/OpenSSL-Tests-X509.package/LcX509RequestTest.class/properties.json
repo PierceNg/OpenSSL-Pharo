@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "PierceNg 12/3/2017 13:55",
+	"super" : "TestCase",
+	"category" : "OpenSSL-Tests-X509",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"req"
+	],
+	"name" : "LcX509RequestTest",
+	"type" : "normal"
+}
