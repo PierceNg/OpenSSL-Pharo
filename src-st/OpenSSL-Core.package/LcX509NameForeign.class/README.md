@@ -1,0 +1,1 @@
+I represent the OpenSSL API X509_NAME C-level type.

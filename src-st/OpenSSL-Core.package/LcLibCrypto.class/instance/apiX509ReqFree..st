@@ -1,4 +1,4 @@
 private - API - X509
-apiX509ReqFree: anX509Request
-	^ self ffiCall: #(X509_REQ_new (X509_REQ *anX509Request))
+apiX509ReqFree: aReq
+	^ self ffiCall: #(void X509_REQ_free (X509_REQ *aReq))
 		module: self library
