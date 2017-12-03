@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"req"
+		"name"
 	],
-	"name" : "LcX509RequestTest",
+	"name" : "LcX509NameTest",
 	"type" : "normal"
 }
