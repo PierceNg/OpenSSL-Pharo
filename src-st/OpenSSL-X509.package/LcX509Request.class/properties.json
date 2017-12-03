@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "PierceNg 11/1/2017 19:39",
+	"super" : "LcObject",
+	"category" : "OpenSSL-X509",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"digest",
+		"keyPair",
+		"subject"
+	],
+	"name" : "LcX509Request",
+	"type" : "normal"
+}
