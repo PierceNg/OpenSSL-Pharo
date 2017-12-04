@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"digest"
+		"pkey"
 	],
 	"name" : "LcX509Request",
 	"type" : "normal"

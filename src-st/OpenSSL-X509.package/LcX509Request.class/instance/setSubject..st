@@ -1,6 +1,6 @@
-accessing
+actions
 setSubject: aName
 	| xn |
 	
 	xn := LcX509Name with: aName.
-	^ LcLibCrypto current apiX509ReqSetSubjectName: handle with: xn handle 
+	self errorIfZero: (LcLibCrypto current apiX509ReqSetSubjectName: handle with: xn handle) 
