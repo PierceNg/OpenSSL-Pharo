@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "LcEvpPkey",
+	"name" : "LcEvpPublicKey",
 	"type" : "normal"
 }
