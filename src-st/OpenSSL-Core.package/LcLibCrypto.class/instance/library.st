@@ -1,3 +1,3 @@
 private - accessing
 library
-	^ #libcrypto
+	^ 'libcrypto.so.1.0.0'

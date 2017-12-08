@@ -4,7 +4,9 @@
 	"category" : "OpenSSL-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"LcRxCache"
+	],
 	"instvars" : [
 		"handle"
 	],

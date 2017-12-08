@@ -1,0 +1,3 @@
+initialization
+resetRxCache
+	LcRxCache := nil
