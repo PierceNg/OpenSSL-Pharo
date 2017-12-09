@@ -1,3 +1,6 @@
 accessing
 rxCache
-	^ LcRxCache ifNil: [ LcRxCache := Dictionary new ]
+
+	^ LcRxCache ifNil: [ 
+			LcRxCache := Dictionary new.
+			self initializeRxCache ]
