@@ -1,1 +1,1 @@
-I am a Smalltalk-level representation of OpenSSL's EVP_PKEY.
+I am a Smalltalk-level representation of OpenSSL's EVP_PKEY. I provide assymetric cryptography functionality.
