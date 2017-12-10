@@ -1,5 +1,5 @@
-accessing
-exponentString
+converting
+printExponent
 	| rx |
 	
 	rx := self class rxCache at: 'LcRSA-exponent'.

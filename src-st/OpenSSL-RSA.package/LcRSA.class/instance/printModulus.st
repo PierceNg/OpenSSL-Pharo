@@ -1,5 +1,5 @@
-accessing
-modulusString
+converting
+printModulus
 	| rx |
 	
 	rx := self class rxCache at: 'LcRSA-modulus'.
