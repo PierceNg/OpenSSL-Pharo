@@ -1,9 +1,9 @@
 actions
-digestSignUpdate: aByteArray
+digestUpdate: aByteArray
 
 	self errorIfZeroOrNegative: 
 		(LcLibCrypto current 
-			apiEvpDigestSignUpdate: mdCtx 
+			apiEvpDigestUpdate: mdCtx 
 			with: aByteArray
 			with: aByteArray size)
 			

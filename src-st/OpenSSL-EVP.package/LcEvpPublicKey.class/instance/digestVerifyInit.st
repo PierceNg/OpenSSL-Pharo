@@ -1,5 +1,5 @@
 actions
-digestSignInit
+digestVerifyInit
 	| md |
 	
 	self errorIfNull: handle.
@@ -8,7 +8,7 @@ digestSignInit
 	
 	self errorIfZeroOrNegative: 
 		(LcLibCrypto current 
-			apiEvpDigestSignInit: mdCtx 
+			apiEvpDigestVerifyInit: mdCtx 
 			with: LcEvpPkeyCtxForeign new
 			with: md
 			with: LcEngineForeign new 
