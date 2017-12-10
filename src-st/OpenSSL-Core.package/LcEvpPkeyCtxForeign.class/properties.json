@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "PierceNg 12/10/2017 10:03",
+	"commentStamp" : "PierceNg 12/9/2017 20:46",
 	"super" : "FFIOpaqueObject",
 	"category" : "OpenSSL-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "LcEvpMdForeign",
+	"name" : "LcEvpPkeyCtxForeign",
 	"type" : "normal"
 }
