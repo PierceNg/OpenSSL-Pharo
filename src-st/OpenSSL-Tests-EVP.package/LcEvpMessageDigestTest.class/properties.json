@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "PierceNg 12/11/2017 19:53",
+	"super" : "TestCase",
+	"category" : "OpenSSL-Tests-EVP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"md",
+		"key"
+	],
+	"name" : "LcEvpMessageDigestTest",
+	"type" : "normal"
+}

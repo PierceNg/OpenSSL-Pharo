@@ -1,0 +1,1 @@
+Abstract test harness for LcEvpMessageDigest subclasses.

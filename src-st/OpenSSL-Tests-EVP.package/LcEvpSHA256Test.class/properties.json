@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "LcEvpMessageDigestTest",
+	"category" : "OpenSSL-Tests-EVP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LcEvpSHA256Test",
+	"type" : "normal"
+}
