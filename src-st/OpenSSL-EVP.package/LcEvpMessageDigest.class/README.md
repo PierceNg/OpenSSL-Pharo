@@ -1,0 +1,1 @@
+I am the abstract super class of  Smalltalk-level representations of OpenSSL's message digest algorithms.

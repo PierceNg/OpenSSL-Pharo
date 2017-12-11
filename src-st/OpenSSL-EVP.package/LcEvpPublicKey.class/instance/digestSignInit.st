@@ -3,7 +3,7 @@ digestSignInit
 	| md |
 	
 	self errorIfNull: handle.
-	self makeMessageDigestContext.	
+	mdCtx := LcLibCrypto current makeDigestContext.	
 	md := LcLibCrypto current apiEvpSHA256. 
 	
 	self errorIfZeroOrNegative: 
