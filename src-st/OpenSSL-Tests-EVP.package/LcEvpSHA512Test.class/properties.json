@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "PierceNg 12/11/2017 20:39",
+	"commentStamp" : "PierceNg 12/11/2017 20:55",
 	"super" : "LcEvpMessageDigestTest",
 	"category" : "OpenSSL-Tests-EVP",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "LcEvpSHA256Test",
+	"name" : "LcEvpSHA512Test",
 	"type" : "normal"
 }
