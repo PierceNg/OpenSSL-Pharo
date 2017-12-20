@@ -1,3 +1,3 @@
 private - accessing
 win32ModuleName
-	^ 'libcrypto-1_1.dll'
+	^ 'libeay32.dll'
