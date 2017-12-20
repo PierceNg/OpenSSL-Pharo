@@ -1,3 +1,3 @@
 initialization
 reset
-	Current := nil
+	uniqueInstance := nil
