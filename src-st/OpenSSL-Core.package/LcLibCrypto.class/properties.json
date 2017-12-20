@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "PierceNg 9/10/2017 23:26",
-	"super" : "Object",
+	"super" : "FFILibrary",
 	"category" : "OpenSSL-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
