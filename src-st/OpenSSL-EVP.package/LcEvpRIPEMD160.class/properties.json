@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "PierceNg 3/18/2018 14:17",
+	"super" : "LcEvpMessageDigest",
+	"category" : "OpenSSL-EVP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LcEvpRIPEMD160",
+	"type" : "normal"
+}

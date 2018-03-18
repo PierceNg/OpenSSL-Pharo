@@ -1,0 +1,1 @@
+Unit tests for RIPEMD160. Hashing test vectors from https://homes.esat.kuleuven.be/~bosselae/ripemd160.html. HMAC test vectors from RFC 2286.
