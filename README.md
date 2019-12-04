@@ -1,4 +1,4 @@
-# Synopsis
+# OpenSSL-Pharo
 
 This package provides Pharo bindings to OpenSSL. The primary scope is ```libcrypto```, OpenSSL's library of cryptographic functions.
 
