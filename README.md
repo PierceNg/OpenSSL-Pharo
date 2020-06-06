@@ -1,8 +1,29 @@
 # OpenSSL-Pharo
 
-This package provides Pharo bindings to OpenSSL. The primary scope is ```libcrypto```, OpenSSL's library of cryptographic functions.
+This package provides Pharo bindings to OpenSSL. The primary scope is ```libcrypto```, OpenSSL's library of cryptographic functions. Contributions via pull requests are welcome.
 
-Bindings to particular groups of functions will be created as and when they are needed.  Contributions via pull requests are welcome.
+## Update Jun 2020
+
+Pharo is transitioning from OpenSSL 1.0.x to OpenSSL 1.1.1. There are C API changes between the two OpenSSL 
+versions that break many tests, basic things like ```XXX_create()``` becoming ```XXX_new()```, ```XXX_init()``` becoming ```XXX_reset()``` etc. As such, I've created the branches ```openssl_1_0``` and ```openssl_1_1``` to match the versions used by Pharo.
+
+To load, for OpenSSL 1.0.x:
+
+```
+Metacello new
+  baseline: 'OpenSSL';
+  repository: 'github://PierceNg/OpenSSL-Pharo:openssl_1_0/src-st';
+  load.
+```
+
+To load, for OpenSSL 1.1.x:
+
+```
+Metacello new
+  baseline: 'OpenSSL';
+  repository: 'github://PierceNg/OpenSSL-Pharo:openssl_1_1/src-st';
+  load.
+```
 
 ## Available Functionality
 
