@@ -2,7 +2,7 @@ tests
 testDuplicate
 	| r rsa2 r2 prx p1 p2 |
 	
-	rsa generateKey: 256.
+	rsa generateKey: 1024.
 	r := rsa asString.
 	rsa2 := rsa duplicate.
 	r2 := rsa2 asString.

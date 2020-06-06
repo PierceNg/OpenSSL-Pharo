@@ -2,15 +2,17 @@ tests
 test256x65537
 	| r |
 	
-	rsa generateKey: 256.
+	rsa generateKey: 1024.
 	r := rsa asString.
-	self assert: ((r allRegexMatches: 'Private-Key\: \(\d+ bit\)') first 
-								allRegexMatches: '\d+') first = '256'.
+	self assert: ((r allRegexMatches: 'RSA Private-Key\: \(\d+ bit.*\)') first 
+								allRegexMatches: '\d+') first
+		equals: '1024'.
 	self assert: ((r allRegexMatches: 'publicExponent\: \d+') first 
-								allRegexMatches: '\d+') first = '65537'.
+								allRegexMatches: '\d+') first
+		equals: '65537'.
 								
 "rsa asString output looks like this:
-Private-Key: (512 bit)
+RSA Private-Key: (1024 bit, 2 primes)
 modulus:
   ...
 publicExponent: 65537 (0x10001)

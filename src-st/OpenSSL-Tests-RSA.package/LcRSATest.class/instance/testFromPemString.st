@@ -4,7 +4,7 @@ testFromPemString
 	
 	rsa fromPemString: LcRSATest rsaPemString1024.
 	r := rsa asString.
-	self assert: ((r allRegexMatches: 'Private-Key\: \(\d+ bit\)') first 
+	self assert: ((r allRegexMatches: 'RSA Private-Key\: \(\d+ bit.*\)') first 
 								allRegexMatches: '\d+') first
 		equals:'1024'.
 	self assert: ((r allRegexMatches: 'publicExponent\: \d+') first 
@@ -12,7 +12,7 @@ testFromPemString
 		equals: '65537'.
 								
 "rsa asString output looks like this:
-Private-Key: (1024bit)
+RSA Private-Key: (1024bit, 2 primes)
 modulus:
   ...
 publicExponent: 65537 (0x10001)
