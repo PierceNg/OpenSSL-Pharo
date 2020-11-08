@@ -2,6 +2,27 @@
 
 This package provides Pharo bindings to OpenSSL. The primary scope is ```libcrypto```, OpenSSL's library of cryptographic functions. Contributions via pull requests are welcome.
 
+## Update Nov 2020
+
+Updated for Pharo 9. Tested on Linux, to be tested on Mac and Windows.
+
+To load, for OpenSSL 1.0.x:
+
+```
+Metacello new
+  baseline: 'OpenSSL';
+  repository: 'github://PierceNg/OpenSSL-Pharo:openssl_1_0_pharo9/src-st';
+  load.
+```
+
+To load, for OpenSSL 1.1.x:
+
+```
+Metacello new
+  baseline: 'OpenSSL';
+  repository: 'github://PierceNg/OpenSSL-Pharo:openssl_1_1_pharo9/src-st';
+  load.
+```
 ## Update Jun 2020
 
 Pharo is transitioning from OpenSSL 1.0.x to OpenSSL 1.1.1. There are C API changes between the two OpenSSL 
