@@ -1,3 +1,3 @@
 private - accessing
 library
-	^ self moduleName
+	^ self libraryName
