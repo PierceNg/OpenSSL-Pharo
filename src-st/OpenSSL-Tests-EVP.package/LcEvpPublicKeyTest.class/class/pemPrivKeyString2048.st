@@ -1,0 +1,34 @@
+accessing-samples
+pemPrivKeyString2048
+	"This is the key pair for #pemPubKeyString2048. Command to generate: 
+	 % openssl genpkey -algorithm RSA -out keypair.pem -pkeyopt rsa_keygen_bits:2048 -outform PEM"
+
+	^ '-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDApMrd5JJn0eZ3
+upWrfnZnVMzFQf8fQrv39nMSqYzyjkBteM+9Ugdaau27bcPB1BNJa7/q/JVRgYCd
+50ldfIyVUTbCFOedHcj4JjQ6xQFGvPHd0uqcIzXH1+2ZfJPGEOZnc6SL+wPsAbcC
+ZNGdH9waPyOnGmR2MRKjtsp7M+0AdJoHs7sMHbj1gTlkp2BpxMdUVI3oIxHDilHR
+OU7QUW4I+9c3V7yemaD697PY/rEL7RMHPKaII20XHMfLkQpiVrQLpxUfgVVvu7SV
+Yjhcn+i112X1Xt/E2KX3RzFALrrhoQoer7+r2uxWc6fgNkBNqLIO6yA9tUD+KO5c
+QAhjoJSlAgMBAAECggEAf3AEa8l7OIbYaTfbLvmXpj+ovo0sEif5ZM15zkyvWv3T
+jRewhVMwXhYCckzohN6ga5+F9BNnS+XZiZupItjzvwtcqANgPMWpXs8XGhGdCIiR
+j+apIOUB/NPQ8ApDT3F6mdEcdyV0sLlpsYG0ULb0ycAe+7ov3ygTZo3TYLE3BWb2
+hA8ps1LVBjsEeelvjLLbfPoP2f9YCOVNrpI7oOdVr5RKBINRiW2bSCY77c+nxVtB
+3vbt7iC4LL4C3+6vN9CLeu/+rqFshZDmIMhz6n1PUVaerokHdUH1biq1NtMDdc7P
+V41rBa+ok2nYQC3z/UrdKG9NVr+bTS31FnFV5CTxQQKBgQDwlMP5YHkhnSVbgHiR
+fDIQ1FBMRyrKmfLt+bKGBo/Yp+u2zlegOfOqp8ssLztbmei1W8C+gIuKnUgGOQpl
++m4jZPMilPzolO5BssRyIh+JwI1SqG6tOL/Xoku7Sz89Ci42JZxeqFdLmk8ALZXj
+8zJOTSz7aSZcm5vpPYA/nmCrLQKBgQDM/YOarwFs9CQb1v3rS1QMmx9m73lYuN8G
+SSkSoLYr+8hfeDES58/9KggYrMDbL1JBeoony8vzu65gb/8wenmLtLlk2xUxtKMH
+qpZglpYvR0LfDya/Kg5HiOKj7FAkEiEuL32UpriOwRC753NCINx7eZUbN4SwLmQ9
+RetrWLyaWQKBgE+qk7LS1YniBerlAgf7PoEALY70yiDJFf7j/tAPADdYc9/XOIEg
+b6YFZmw9P8S3lK3pskvjOVIvfxhAb0cRxMMHvNOozo8eMj+jORYqYpM1JhdHG09V
+SYHYhoeBBXHrGx5nGf7mc/HfKWX/snEHqZLwT4L5cPCdvuVfrkZi5dQJAoGAAtiq
+USWI8YhaUACmOfQr0Jj+0KEWoELA5gdyCI4uuWGfoKO8mrSZULyarC0J6IE5tSsM
+bA0KYfIDM9eaRYQN2ADEakAYhT4q3VpjCChPIYztwsclFJZy6E9gRkJrwnR1/Xwv
+VDcUbPcFUnaeRRbLuPMxPNWChCfAwJEN+cmbpNECgYEAk6LrIpRaC5YSxI9Uv7qQ
+m0fAHDZ+QJbhDepDVmkL44bwvRqBchGGnusd/9gdh1cST/gA4O6+Rqbe2+Tg/yj4
+aUBVNyI7mGdYFm0iuyOPlm12XsM/GdL/YiDib3Q7NBgqgPRkcjZGbkuNJOgRMK29
+wBHxzorvIua7ZCS/bzDQ+Sc=
+-----END PRIVATE KEY-----'
+
